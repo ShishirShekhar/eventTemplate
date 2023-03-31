@@ -706,6 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  height: 300px;
 }
 
 #speakers .speaker .details {
@@ -1506,6 +1507,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   #faq #faq-list i {
     top: 13px;
   }
+
+  #speakers .speaker {
+    width: 400px;
+  }
+
+  .size {
+    padding: 0 70px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1529,6 +1538,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 460px) {
   #subscribe button {
     margin-top: 10px;
+  }
+
+  #speakers .speaker {
+    width: 300px;
+  }
+
+  .size {
+    padding: 0 70px;
+  }
+}
+
+@media (max-width: 370px) {
+  #speakers {
+    padding: 0 20px;
+  }
+
+  #speakers .speaker {
+    width: 300px;
+  }
+
+  .size {
+    padding: 0 0px;
+  }
+}
+
+@media (max-width: 300px) {
+  #speakers {
+    padding: 0 10px;
+  }
+  
+  #speakers .speaker {
+    width: 250px;
+  }
+
+  .size {
+    padding: 0 0px;
   }
 }
 
